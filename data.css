@@ -1,0 +1,112 @@
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+    background-size: cover;
+}
+
+.navigasi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    color: white ;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 30px ;
+    transition: 0.5s;
+}
+.logo:hover {
+    color: turquoise;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+}
+.list li{
+    display: flex;
+}
+.list li a{
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 15px;
+    background-color: black;
+    border-radius: 25px;
+    
+}
+.list li a:hover{
+    color: turquoise;
+}
+
+.welcome{
+    background-color: rgb(10, 141, 38);
+    padding: 30px;
+    border-radius: 20px;
+    margin: 35px;
+}
+.welcometulisan{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.kotak1{
+    margin: 100px;
+}
+
+.videotulisan{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.video{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.video iframe{
+    height: 220px;
+    width: 400px;
+}
+.musictulisan{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.music{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.music audio{
+    margin: 7px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 30px;
+}
+.penutup{
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}

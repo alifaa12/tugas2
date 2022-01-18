@@ -1,0 +1,108 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(img/bag.jpg);
+    background-size: cover;
+}
+.biodata{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+.icon{
+    margin: 0;
+    font-size: 50px;
+}
+.ig{
+    color: black;
+    transition: 0.5s;
+    padding: 15px;
+}
+.wa{
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    padding: 15px;
+}
+.email{
+    color: #111111e7;
+    transition: 0.5s;
+    padding: 15px;
+}
+header{
+    background-color: rgb(203, 166, 252);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kanan{
+    margin-left: 40px;
+}
+.tanpadekorasi{
+    text-decoration: none;
+    padding: 15px;
+    background-color: rgb(203, 166, 252);
+    border-radius: 25px;
+    color: black;
+}
+.ig:hover{
+    color: rgb(195, 0, 255);
+}
+.wa:hover{
+    color: rgb(40, 194, 130);
+}
+.email:hover{
+    color: rgb(255, 51, 0);
+}
+.tanpadekorasi:hover{
+    opacity: 0.5;
+}
+.kotak{
+    background-color: rgb(203, 166, 252);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.wajah {
+    
+    background-color: #eaeaea;
+    background-size: cover;
+    margin-top: 50px;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid #eaeaea;
+}
+.wajah:hover{
+    transform: scale(1.15);
+}
+
+.text {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    color: #324e63;
+}
+p{
+    margin-bottom: 50px;
+    padding-top: 20px;
+    width: 400px;
+    height: 300px;
+    color: #324e63;
+}
+.kotak1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kotak2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
